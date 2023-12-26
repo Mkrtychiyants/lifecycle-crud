@@ -6,7 +6,52 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.noteHeader{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.refreshNote {
+  border-radius: 50%;
+  color: greenyellow;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.noteAddForm{
+  position: relative;
+  margin: 0 auto;
+}
+.remove {
+  position: relative;
+  display: block;
+  left: 100%;
+  top: 15%;
+  color: red;
+  border-radius: 50%;
+}
+.noteList{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.noteItemContent {
+  position: relative;
+  display: block;
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  list-style-type: none;
+}
+.noteItem {
+  list-style-type: none;
+}
+.noteAddForm {
+  position: relative;
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
